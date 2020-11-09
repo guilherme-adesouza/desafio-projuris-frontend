@@ -1,1 +1,115 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #242424;
+    color: #fff;
+}
+
+.pokemon-card {
+    background-color: #242424;
+    border-color: #ccc;
+}
+
+.pokedex-color {
+    background-color: #dc0a2d !important;
+}
+
+/* START POKEMON TYPES */
+
+.pokemon-type-tag-normal {
+    background-color: grey;
+}
+
+.pokemon-type-tag-fighting {
+    background-color: red;
+}
+
+.pokemon-type-tag-flying {
+    background-color: white;
+    color: #000;
+}
+
+.pokemon-type-tag-poison {
+    background-color: purple;
+    color: #fff;
+}
+
+.pokemon-type-tag-ground {
+    background-color: sandybrown;
+    color: #fff;
+}
+
+.pokemon-type-tag-rock {
+    background-color: saddlebrown;
+    color: #fff;
+}
+
+.pokemon-type-tag-bug {
+    background-color: greenyellow;
+    color: #000;
+}
+
+.pokemon-type-tag-ghost {
+    background-color: mediumslateblue;
+    color: #fff;
+}
+
+.pokemon-type-tag-steel {
+    background-color: lightsteelblue;
+    color: #000;
+}
+
+.pokemon-type-tag-fire {
+    background-color: red;
+    color: #fff;
+}
+
+.pokemon-type-tag-water {
+    background-color: dodgerblue;
+    color: #fff;
+}
+
+.pokemon-type-tag-grass {
+    background-color: green;
+    color: #fff;
+}
+
+.pokemon-type-tag-electric {
+    background-color: yellow;
+    color: #000;
+}
+
+.pokemon-type-tag-psychic {
+    background-color: deeppink;
+    color: #fff;
+}
+
+.pokemon-type-tag-ice {
+    background-color: aliceblue;
+    color: #000;
+}
+
+.pokemon-type-tag-dragon {
+    background-color: indigo;
+    color: #fff;
+}
+
+.pokemon-type-tag-dark {
+    background-color: black;
+    color: #fff;
+}
+
+.pokemon-type-tag-fairy {
+    background-color: hotpink;
+    color: #fff;
+}
+
+.pokemon-type-tag-unknown {
+    background-color: white;
+    color: #fff;
+}
+
+.pokemon-type-tag-shadow {
+    background-color: darkslategrey;
+    color: #fff;
+}
+
+/* END POKEMON TYPES */

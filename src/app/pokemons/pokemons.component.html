@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 pokemons">
+        <div class="col mb-3" *ngFor="let pokemon of pokemons">
+            <div class="pokemon-card card border-white">
+                <img class="card-img-top border-bottom border-white" width="300" src="{{pokemon.image}}" alt="{{pokemon.name}} image" />
+                <div class="card-body">
+                    <p class="card-text"># {{pokemon.id}}</p>
+                    <h5 class="card-title">{{pokemon.name | titlecase}}</h5>
+                    <div class="tags">
+                        <span class="badge badge-pill pokemon-type-tag-{{type.name}} mr-1" *ngFor="let type of pokemon.types">{{type.name | titlecase}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
